@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1 ,
+        "title":"hand watch" , 
+        "body":"Lorem ipsum dolor sit amet consectetur adipisicing elit. " ,
+        "img_src":"images/img1.jpg"
+    },
+    {
+        "id": 2 ,
+        "title":"camera" , 
+        "body":"Lorem ipsum dolor sit amet consectetur adipisicing elit. " ,
+        "img_src":"images/img2.jpg"
+    },
+    {
+        "id": 3 ,
+        "title":"Microwave" , 
+        "body":"Lorem ipsum dolor sit amet consectetur adipisicing elit. " ,
+        "img_src":"images/img3.jpg"
+    },
+    {
+        "id": 4 ,
+        "title":"oven" , 
+        "body":"Lorem ipsum dolor sit amet consectetur adipisicing elit. " ,
+        "img_src":"images/img4.jpg"
+    },
+    {
+        "id": 5 ,
+        "title":"laptop" , 
+        "body":"Lorem ipsum dolor sit amet consectetur adipisicing elit. " ,
+        "img_src":"images/img5.jpg"
+    }
+]

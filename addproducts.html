@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shooping Card </title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/edit_product.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+
+    <!-- start header  -->
+    <header>
+        <div class="container">
+            <div class="logo"> <a href="index.html" id="logo">Attar </a> </div>
+            <ul id="nav">
+                <li id="username">Welcome : </li>
+                <li><a href="login.html" id="logout"> log_out  </a></li>
+            </ul>
+        </div>
+    </header>
+    <!-- end header  -->
+
+        <div class="addproduct">
+            <h2>Add new product</h2>
+            <form>
+                <div>
+                    <label>Enter The Title</label>
+                    <input type="text" id="p_name"/>
+                </div>
+                <div>
+                    <label>Enter The Description</label>
+                    <textarea type="text-area" id="p_description"></textarea>
+                </div>
+                <div>
+                    <label>Enter The Quantity</label>
+                    <input type="number" id="p_quantity"/>
+                </div>
+                <div>
+                    <label>Chose The Image</label>
+                    <img id="p_image" src="#" alt="your image" />
+                    <input type='file' onchange="readURL(this);" />
+                </div>
+                <div>
+                    <input type="submit" value="save" id="p_submit"/>
+                </div>
+            </form>
+        </div>
+        <script src="js/addproduct.js"></script>
+</body> 
+</html>

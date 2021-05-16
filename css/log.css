@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.notifcation , .active{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 60%;
+    top: 10%;
+    left: 20%;
+    height: 80px;
+    border: 2px solid black;
+    font-size: 2vw;
+    text-align: center;
+    color: red;
+    opacity: 0;
+}
+.active {
+    color: green;
+}
+
+/* start header  */
+
+header{
+    background-color: #444;
+    color: white;
+}
+header .logo{
+    font-size: 30px;
+    width: 80%;
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+header a:hover{
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+header .container {
+    display: flex;
+    align-items: center;
+}
+header ul {
+    width: 17%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+/* end header  */
+
+.login{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  background-color:#C57DF9 ;
+  padding: 10px;
+}
+.login h2{
+    font-size: 50px;
+    margin: 8px 0 40px;
+    letter-spacing: 2px;
+    color: #5A1382;
+    text-align: center;
+}
+.login div{
+    margin: 5px 0;
+}
+
+.login input{
+    display: block;
+    width: 100%;
+    padding: 8px;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+.login input[type=submit]{
+ font-size: 20px;
+}
